@@ -90,3 +90,9 @@ section.landing-page {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Grow Together Section */
+.grow-together .section-image {
+    order: -1;
+    margin-top: 100px;
+}
