@@ -1,3 +1,63 @@
-h1 {
-    color: red;
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Universal Font */
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Heading Fonts */
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* COLORS: Text colors */
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-gray-blue {
+    color: hsl(208, 11%, 55%)
+}
+
+/* COLORS: Background colors */
+
+.bg-pink {
+    background-color: hsl(322, 100%, 66%);
+}
+
+.bg-pale-cyan {
+    background-color: hsl(192, 100%, 96%);
+}
+
+.bg-dark-cyan {
+    background-color: hsl(192, 100%, 9%);
+}
+
+/* Navbar Styles */
+
+nav.navbar {
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar .btn.nav-btn {
+   box-shadow: 0px 0px 4px 4px hsl(192, 100%, 96%); 
+   border: none;
+   border-radius: 20px;
+   padding: 4px 16px;
+   font-size: 14px;
+   font-weight: bold;
+   color: hsl(192, 100%, 9%);
 }
