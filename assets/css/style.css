@@ -56,8 +56,6 @@ main {
     order: -1;
 }
 
-/* Paragraph styles for all sections */
-
 /* Navbar Styles */
 
 .navbar-brand img {
@@ -78,6 +76,7 @@ main {
 section {
     margin-bottom: 100px;
 }
+
 .section-content {
     display: flex;
     flex-direction: column;
@@ -101,4 +100,13 @@ section.landing-page {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+}
+
+footer .footer-logo {
+    font-weight: bold;
 }
